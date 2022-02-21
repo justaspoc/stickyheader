@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Impressbox sticky header",
+  "version": "0.1.0",
+  "description": "Makes device list header sticky",
+
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "matches": ["https://m.impressbox.eu/*"]
+    }
+  ]
+}
